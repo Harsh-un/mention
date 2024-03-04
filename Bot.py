@@ -32,11 +32,11 @@ spam_chats = []
 async def start(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("ɪ ᴀᴍ ᴀʟɪᴠᴇ 🥺")
+        return await event.respond("ɪ ᴀᴍ ᴀʟɪᴠᴇ 🗿")
     
     await event.client.send_file(
         event.chat_id,
-        file="https://te.legra.ph/file/c51f9d5400b4d1e2dce09.jpg",
+        file="https://telegra.ph/file/11a9e10a4ba0a125eab7a.jpg",
         caption="━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ ᴜɴᴍᴇɴᴛɪᴏɴ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ᴜɴ ʙᴏᴛ](https://t.me/un_bots)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ](https://t.me/unb_info)┓\n┣★ ʀᴇᴘᴏ › : [ᴜɴ ᴡᴏʀʟᴅ](https://t.me/un_w0rld)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/harsh_un) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
         link_preview=False,
         buttons=[
