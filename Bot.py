@@ -37,12 +37,12 @@ async def start(event):
     await event.client.send_file(
         event.chat_id,
         file="https://telegra.ph/file/11a9e10a4ba0a125eab7a.jpg",
-        caption="━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ ᴜɴᴍᴇɴᴛɪᴏɴ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ᴜɴ ʙᴏᴛ](https://t.me/un_bots)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ](https://t.me/unb_info)┓\n┣★ ʀᴇᴘᴏ › : [ᴜɴ ᴡᴏʀʟᴅ](https://t.me/un_w0rld)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/harsh_un) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
+        caption="━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ ᴜɴ ᴍᴇɴᴛɪᴏɴ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [HARSH](https://t.me/OYE_HARSHH)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ](https://t.me/unb_info)┓\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nDᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/harsh_un) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
         link_preview=False,
         buttons=[
-            [Button.url("❤️‍🔥 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💫", "https://t.me/un_mentionbot?startgroup=true")],
-            [Button.url("❤️‍🔥 ɢʀᴏᴜᴘ 💫", "https://t.me/BRANDED_WORLD"), Button.url("❤️‍🔥 ᴄʜᴀɴɴᴇʟ 💫", "https://t.me/unb_info")],
-            [Button.url("❤️‍🔥 ʜᴇʀᴜᴋᴏ ᴄᴄ 💫", "https://t.me/BRANDED_PAID_CC"), Button.url("❤️‍🔥 UNKNOWN ❤️‍🔥", "https://t.me/harsh_un")]
+            [Button.url(" ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", "https://t.me/un_mentionbot?startgroup=true")],
+            [Button.url("ɢʀᴏᴜᴘ ", "https://t.me/unbchats"), Button.url(" ᴄʜᴀɴɴᴇʟ ", "https://t.me/unb_info")],
+            [Button.url("Dev", "https://t.me/not_harsh")]
         ]
     )
 
@@ -70,7 +70,7 @@ async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
-    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴜɴ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴜɴ ʙᴏᴛ](https://t.me/un_bots)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ᴜɴ\n✪ ᴄʜᴀɴɴᴇʟ [ᴄʜᴀɴɴᴇʟ](https://t.me/unb_info)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
+    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴜɴ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [Harsh](https://t.me/oye_harshh)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ᴜɴ\n✪ ᴄʜᴀɴɴᴇʟ [ᴄʜᴀɴɴᴇʟ](https://t.me/unb_info)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
     await event.reply(
         helptext,
         link_preview=False,
